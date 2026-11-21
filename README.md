@@ -127,5 +127,3 @@ In the Slack app, you can list all databases / tables and check table schema by 
 - No high availability support. Multiple instances will not work because this is a stateful service.
 - Multiple people chatting in the same thread may confuse ChatGPT. Please keep only one active questions in one thread.
 - Restarting the service will cause the server lose track of all states, so you will not be able to follow up in threads created before the restart.
-
-For any issues not covered here and feature request, please submit via the Github issue or join our [Discord](https://discord.gg/fRzNUEugRU).
