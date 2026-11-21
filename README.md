@@ -1,12 +1,3 @@
-# <img valign="middle" src="https://github.com/logunify/dsensei/blob/main/docs/images/logo.png" width="65" height="65"/>   DSensei
-
-[![slack](https://img.shields.io/badge/SlackDemo-@DSensei-brightgreen.svg?logo=slack)](https://join.slack.com/t/dsensei-demo/shared_invite/zt-1tt55ia3p-jMlofj8YHGnCMjuu30vJeg)
-[![Discord](https://img.shields.io/badge/discord-@DSensei-blue.svg?logo=discord)](https://discord.gg/fRzNUEugRU)
-
-
-Revolutionize the way you access data using DSensei, the open source chatbot that makes querying your databases effortless with natural language. DSensei can easily retrieve data from databases like BigQuery, MySQL, and PostgreSQL with the power of ChatGPT, eliminating the need for complex SQL queries. DSensei has a built-in web chatbot, and Slack integration to enable data question answering in Slack.
-
-Try a live demo in our [Slack Channel](https://join.slack.com/t/dsensei-demo/shared_invite/zt-1tt55ia3p-jMlofj8YHGnCMjuu30vJeg)
 
 ## Table of Contents
 
@@ -15,11 +6,6 @@ Try a live demo in our [Slack Channel](https://join.slack.com/t/dsensei-demo/sha
 - [Usage](#Usage)
 - [More Demos](#More-Demos)
 - [Known Issues](#Known-Issues)
-
-## Demo Videos
-
-![](https://github.com/logunify/dsensei/blob/main/docs/images/follow-up.gif)
-Complex query, get number of movies, most popular movie and most popular actor.
 
 ## Installation
 
@@ -135,28 +121,6 @@ In the Slack app, you can list all databases / tables and check table schema by 
 - `/info tables dbname` command lists all tables in the database `dbname`.
 - `/info schema dbname.tablename` command shows the schema of table `dbname.tablename`.
 
-In the web chat, you can simply click the "Show Schemas" button.
-
-### Querying Database
-
-To interact with DSensei in your Slack workspace, type @dsensei in any channel where you want to run a query and enter your query request, for example: "@dsensei, show me the number of daily active users in the past 7 days".
-
-To interact with DSensei using the web app, simply type the question in the input box, like you chat with ChatGPT.
-
-DSensei will translate your request to an SQL statement, run the SQL, and reply with the result in a thread.
-If you think the query is incorrect, you can directly edit the query in Slack, and make it re-run the query.
-You can also ask follow-up questions in the same thread if you want to dive deeper.
-DSensei includes the SQL statement being used to get the result, which allows you to understand how the query was constructed, and make changes or improvements as needed. This feature helps you to build upon previous queries, without starting from scratch every time.
-
-With DSensei, you can easily access data insights through natural language processing, without the need for complex coding skills or extensive knowledge of SQL syntax. DSensei makes it easy to fetch the data you require and focus on analyzing it to drive business value.
-
-## More Demos
-Show databases, tables and table schema:
-![](https://github.com/logunify/dsensei/blob/main/docs/images/schema.gif)
-Edit queries in place if there are errors in the query:
-![](https://github.com/logunify/dsensei/blob/main/docs/images/edit.gif)
-Simple query to pull data from db:
-![](https://github.com/logunify/dsensei/blob/main/docs/images/query.gif)
 
 ## Known Issues
 
